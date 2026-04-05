@@ -1,0 +1,32 @@
+name: Market Gauntlet — Mid-day Evaluation
+
+on:
+  # Runs at 12:30pm ET on weekdays (17:30 UTC, accounting for ET = UTC-5)
+  # Change to 16:30 UTC during EDT (summer, UTC-4)
+  schedule:
+    - cron: '30 17 * * 1-5'
+
+  # Also allow manual trigger from GitHub Actions UI — useful for testing
+  workflow_dispatch:
+
+jobs:
+  evaluate:
+    name: Evaluate Open Plays
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Run evaluator
+        run: node evaluate.js
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+          GIST_TOKEN: ${{ secrets.GIST_TOKEN }}
+          GIST_ID: ${{ secrets.GIST_ID }}
