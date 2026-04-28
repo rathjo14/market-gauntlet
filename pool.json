@@ -47,22 +47,37 @@
           "adverse_day": false,
           "conviction_score": 7,
           "conviction_delta": 0
+        },
+        {
+          "checked_at": "2026-04-28T19:08:30.090Z",
+          "source": "midday_scan",
+          "current_price": "$654.09",
+          "price_change_24h": "+0.00%",
+          "thesis_status": "weakening",
+          "signal": "watch",
+          "signal_reason": "NVDA hasn't reported April 23 earnings yet - thesis catalyst premature. Heavy AI spending concerns emerging across tech ahead of Big Tech earnings.",
+          "summary": "QQQ at $654 remains well above $620 invalidation but the thesis is built on a false catalyst. NVDA earnings aren't until May 20th, not April 23rd as stated. Tech sector faces growing scrutiny over massive AI capex with major hyperscalers reporting Wednesday.",
+          "updated_bear_case": "AI 'ROI reckoning' narrative gaining traction as analysts question whether $650B+ AI spending translates to revenue. Free cash flow compression expected across Big Tech as infrastructure spending outpaces returns.",
+          "key_level_to_watch": "$648",
+          "adverse_day": false,
+          "conviction_score": 5,
+          "conviction_delta": -2
         }
       ],
       "review": {
-        "checked_at": "2026-04-27T18:50:32.639Z",
+        "checked_at": "2026-04-28T19:08:30.090Z",
         "source": "midday_scan",
-        "current_price": "$661.24",
-        "price_change_24h": "-0.40%",
-        "thesis_status": "intact",
-        "signal": "hold",
-        "signal_reason": "QQQ holding above $620 support with NVIDIA breaking to new highs driving tech rally. VIX compressed to 19.03 confirms risk-on sentiment.",
-        "summary": "<cite index=\"6-1,9-5\">QQQ trading at $661.24, down -0.40% today but holding well above the $620 invalidation level.</cite> <cite index=\"13-2,13-24\">NVIDIA stock rose 5% on April 24 pushing market cap to $5.09 trillion, approaching all-time highs at $209 per share.</cite> <cite index=\"25-3,22-3\">VIX compressed from previous highs to 19.03, supporting the thesis of renewed risk appetite.</cite>",
-        "updated_bear_case": "<cite index=\"13-9,13-17\">NVIDIA dramatically underperformed other semiconductors YTD at only 7% vs Marvell 95%, as investors diversify away from single dominant names into broader AI infrastructure plays.</cite>",
-        "key_level_to_watch": "$620 support - break below invalidates uptrend",
+        "current_price": "$654.09",
+        "price_change_24h": "+0.00%",
+        "thesis_status": "weakening",
+        "signal": "watch",
+        "signal_reason": "NVDA hasn't reported April 23 earnings yet - thesis catalyst premature. Heavy AI spending concerns emerging across tech ahead of Big Tech earnings.",
+        "summary": "QQQ at $654 remains well above $620 invalidation but the thesis is built on a false catalyst. NVDA earnings aren't until May 20th, not April 23rd as stated. Tech sector faces growing scrutiny over massive AI capex with major hyperscalers reporting Wednesday.",
+        "updated_bear_case": "AI 'ROI reckoning' narrative gaining traction as analysts question whether $650B+ AI spending translates to revenue. Free cash flow compression expected across Big Tech as infrastructure spending outpaces returns.",
+        "key_level_to_watch": "$648",
         "adverse_day": false,
-        "conviction_score": 7,
-        "conviction_delta": 0
+        "conviction_score": 5,
+        "conviction_delta": -2
       },
       "generated_at": "2026-04-20T18:36:11.735Z",
       "added_to_pool": "2026-04-20T18:36:11.735Z",
@@ -246,5 +261,5 @@
       }
     }
   ],
-  "last_updated": "2026-04-27T18:50:41.434Z"
+  "last_updated": "2026-04-28T19:08:39.000Z"
 }
