@@ -32,8 +32,38 @@
         }
       ],
       "status": "",
-      "evaluations": [],
-      "review": null,
+      "evaluations": [
+        {
+          "checked_at": "2026-05-05T18:54:32.228Z",
+          "source": "midday_scan",
+          "current_price": "45.96",
+          "price_change_24h": "+2.1%",
+          "thesis_status": "strengthened",
+          "signal": "add",
+          "signal_reason": "<cite index=\"11-3,12-3,12-19\">BTC broke above $80K catalyst level hitting $81,286</cite>, and <cite index=\"22-7,22-16,30-1,30-6\">CLARITY Act reached key compromise removing final roadblock with Senate markup planned for May</cite>.",
+          "summary": "<cite index=\"1-1\">IBIT up 1.90% to $45.32</cite> as <cite index=\"11-3,12-3\">Bitcoin surged above $80K catalyst hitting $81,286</cite>. <cite index=\"22-5,22-7,22-16\">CLARITY Act breakthrough with stablecoin compromise and Senate Banking Committee markup planned for May</cite>. <cite index=\"2-8,2-13\">IBIT still well below 52-week high of $71.82</cite> with room to run on regulatory clarity.",
+          "updated_bear_case": "Options dealers creating resistance at $80K level as large call positions require hedging that puts selling pressure near this key level.",
+          "key_level_to_watch": "$47.00",
+          "adverse_day": false,
+          "conviction_score": 9,
+          "conviction_delta": 1
+        }
+      ],
+      "review": {
+        "checked_at": "2026-05-05T18:54:32.228Z",
+        "source": "midday_scan",
+        "current_price": "45.96",
+        "price_change_24h": "+2.1%",
+        "thesis_status": "strengthened",
+        "signal": "add",
+        "signal_reason": "<cite index=\"11-3,12-3,12-19\">BTC broke above $80K catalyst level hitting $81,286</cite>, and <cite index=\"22-7,22-16,30-1,30-6\">CLARITY Act reached key compromise removing final roadblock with Senate markup planned for May</cite>.",
+        "summary": "<cite index=\"1-1\">IBIT up 1.90% to $45.32</cite> as <cite index=\"11-3,12-3\">Bitcoin surged above $80K catalyst hitting $81,286</cite>. <cite index=\"22-5,22-7,22-16\">CLARITY Act breakthrough with stablecoin compromise and Senate Banking Committee markup planned for May</cite>. <cite index=\"2-8,2-13\">IBIT still well below 52-week high of $71.82</cite> with room to run on regulatory clarity.",
+        "updated_bear_case": "Options dealers creating resistance at $80K level as large call positions require hedging that puts selling pressure near this key level.",
+        "key_level_to_watch": "$47.00",
+        "adverse_day": false,
+        "conviction_score": 9,
+        "conviction_delta": 1
+      },
       "generated_at": "2026-05-04T19:06:48.999Z",
       "added_to_pool": "2026-05-04T19:06:48.999Z",
       "generated_by": "midday_bot",
@@ -345,5 +375,5 @@
       }
     }
   ],
-  "last_updated": "2026-05-04T19:06:49.000Z"
+  "last_updated": "2026-05-05T18:54:47.767Z"
 }
