@@ -47,19 +47,34 @@
           "adverse_day": false,
           "conviction_score": 9,
           "conviction_delta": 1
+        },
+        {
+          "checked_at": "2026-05-06T19:10:28.675Z",
+          "source": "midday_scan",
+          "current_price": "$46.28",
+          "price_change_24h": "+1.9%",
+          "thesis_status": "strengthened",
+          "signal": "add",
+          "signal_reason": "Catalyst materializing with BTC breaking $80K and CLARITY Act advancing rapidly through Senate. Perfect timing alignment.",
+          "summary": "<cite index=\"12-2,17-1\">Bitcoin surged above $81K on May 6, hitting highest levels since January</cite>, while <cite index=\"1-1\">IBIT trades at $46.28, up 1.94% from previous close of $45.40</cite>. <cite index=\"21-11,21-13,21-15\">CLARITY Act seeing major breakthrough with bipartisan compromise reached and Senate Banking Committee markup expected in May</cite>.",
+          "updated_bear_case": "<cite index=\"18-6,18-7\">Friday's NFP report could shift market sentiment if hot jobs number spooks rate expectations, given BTC's high correlation to risk assets</cite>. <cite index=\"11-26,11-27\">MicroStrategy signaling potential BTC sales for first time to fund dividends could create supply overhang</cite>.",
+          "key_level_to_watch": "$82,000 (200-day EMA resistance)",
+          "adverse_day": false,
+          "conviction_score": 9,
+          "conviction_delta": 1
         }
       ],
       "review": {
-        "checked_at": "2026-05-05T18:54:32.228Z",
+        "checked_at": "2026-05-06T19:10:28.675Z",
         "source": "midday_scan",
-        "current_price": "45.96",
-        "price_change_24h": "+2.1%",
+        "current_price": "$46.28",
+        "price_change_24h": "+1.9%",
         "thesis_status": "strengthened",
         "signal": "add",
-        "signal_reason": "<cite index=\"11-3,12-3,12-19\">BTC broke above $80K catalyst level hitting $81,286</cite>, and <cite index=\"22-7,22-16,30-1,30-6\">CLARITY Act reached key compromise removing final roadblock with Senate markup planned for May</cite>.",
-        "summary": "<cite index=\"1-1\">IBIT up 1.90% to $45.32</cite> as <cite index=\"11-3,12-3\">Bitcoin surged above $80K catalyst hitting $81,286</cite>. <cite index=\"22-5,22-7,22-16\">CLARITY Act breakthrough with stablecoin compromise and Senate Banking Committee markup planned for May</cite>. <cite index=\"2-8,2-13\">IBIT still well below 52-week high of $71.82</cite> with room to run on regulatory clarity.",
-        "updated_bear_case": "Options dealers creating resistance at $80K level as large call positions require hedging that puts selling pressure near this key level.",
-        "key_level_to_watch": "$47.00",
+        "signal_reason": "Catalyst materializing with BTC breaking $80K and CLARITY Act advancing rapidly through Senate. Perfect timing alignment.",
+        "summary": "<cite index=\"12-2,17-1\">Bitcoin surged above $81K on May 6, hitting highest levels since January</cite>, while <cite index=\"1-1\">IBIT trades at $46.28, up 1.94% from previous close of $45.40</cite>. <cite index=\"21-11,21-13,21-15\">CLARITY Act seeing major breakthrough with bipartisan compromise reached and Senate Banking Committee markup expected in May</cite>.",
+        "updated_bear_case": "<cite index=\"18-6,18-7\">Friday's NFP report could shift market sentiment if hot jobs number spooks rate expectations, given BTC's high correlation to risk assets</cite>. <cite index=\"11-26,11-27\">MicroStrategy signaling potential BTC sales for first time to fund dividends could create supply overhang</cite>.",
+        "key_level_to_watch": "$82,000 (200-day EMA resistance)",
         "adverse_day": false,
         "conviction_score": 9,
         "conviction_delta": 1
@@ -375,5 +390,5 @@
       }
     }
   ],
-  "last_updated": "2026-05-05T18:54:47.767Z"
+  "last_updated": "2026-05-06T19:10:44.480Z"
 }
