@@ -1,6 +1,53 @@
 {
   "runs": [
     {
+      "run_at": "2026-05-11T19:16:38.670Z",
+      "trigger": "schedule",
+      "evaluations": [],
+      "new_plays": [],
+      "slots_before": 8,
+      "slots_after": 8,
+      "errors": [
+        {
+          "ticker": "IBIT",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "ticker": "XLE",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "ticker": "COIN",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "ticker": "TLT",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "ticker": "QQQ",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "ticker": "MSTR",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "ticker": "UUP",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "ticker": "NVDA",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        },
+        {
+          "phase": "generate",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        }
+      ],
+      "status": "partial"
+    },
+    {
       "run_at": "2026-05-08T18:52:33.752Z",
       "trigger": "schedule",
       "evaluations": [],
@@ -788,5 +835,5 @@
       "status": "ok"
     }
   ],
-  "last_run": "2026-05-08T18:52:33.752Z"
+  "last_run": "2026-05-11T19:16:38.670Z"
 }
