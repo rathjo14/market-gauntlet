@@ -1,6 +1,21 @@
 {
   "runs": [
     {
+      "run_at": "2026-06-01T21:07:18.932Z",
+      "trigger": "schedule",
+      "evaluations": [],
+      "new_plays": [],
+      "slots_before": 0,
+      "slots_after": 0,
+      "errors": [
+        {
+          "phase": "generate",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        }
+      ],
+      "status": "partial"
+    },
+    {
       "run_at": "2026-05-29T19:53:21.344Z",
       "trigger": "schedule",
       "evaluations": [],
@@ -1153,66 +1168,7 @@
         }
       ],
       "status": "partial"
-    },
-    {
-      "run_at": "2026-04-20T18:34:46.676Z",
-      "trigger": "schedule",
-      "evaluations": [],
-      "new_plays": [
-        {
-          "ticker": "IBIT",
-          "play_type": "long",
-          "direction": "bullish",
-          "conviction": 8
-        },
-        {
-          "ticker": "QQQ",
-          "play_type": "call",
-          "direction": "bullish",
-          "conviction": 7
-        },
-        {
-          "ticker": "MU",
-          "play_type": "call",
-          "direction": "bullish",
-          "conviction": 8
-        },
-        {
-          "ticker": "XLE",
-          "play_type": "put_spread",
-          "direction": "bearish",
-          "conviction": 7
-        },
-        {
-          "ticker": "MSTR",
-          "play_type": "long",
-          "direction": "bullish",
-          "conviction": 8
-        },
-        {
-          "ticker": "UVXY",
-          "play_type": "put",
-          "direction": "bearish",
-          "conviction": 7
-        },
-        {
-          "ticker": "TLT",
-          "play_type": "put",
-          "direction": "bearish",
-          "conviction": 7
-        },
-        {
-          "ticker": "APP",
-          "play_type": "long",
-          "direction": "bullish",
-          "conviction": 8
-        }
-      ],
-      "slots_before": 0,
-      "slots_after": 8,
-      "errors": [],
-      "status": "ok"
     }
   ],
-  "last_run": "2026-05-29T19:53:21.344Z"
+  "last_run": "2026-06-01T21:07:18.932Z"
 }
