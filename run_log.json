@@ -1,6 +1,21 @@
 {
   "runs": [
     {
+      "run_at": "2026-06-15T20:37:35.553Z",
+      "trigger": "schedule",
+      "evaluations": [],
+      "new_plays": [],
+      "slots_before": 0,
+      "slots_after": 0,
+      "errors": [
+        {
+          "phase": "generate",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        }
+      ],
+      "status": "partial"
+    },
+    {
       "run_at": "2026-06-12T19:30:48.115Z",
       "trigger": "schedule",
       "evaluations": [],
@@ -777,92 +792,7 @@
         }
       ],
       "status": "partial"
-    },
-    {
-      "run_at": "2026-05-04T19:05:16.314Z",
-      "trigger": "schedule",
-      "evaluations": [
-        {
-          "ticker": "QQQ",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "MU",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "XLE",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "UVXY",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "TLT",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        }
-      ],
-      "new_plays": [
-        {
-          "ticker": "IBIT",
-          "play_type": "call",
-          "direction": "bullish",
-          "conviction": 8
-        },
-        {
-          "ticker": "XLE",
-          "play_type": "call",
-          "direction": "bullish",
-          "conviction": 9
-        },
-        {
-          "ticker": "COIN",
-          "play_type": "call",
-          "direction": "bullish",
-          "conviction": 8
-        },
-        {
-          "ticker": "TLT",
-          "play_type": "put",
-          "direction": "bearish",
-          "conviction": 7
-        },
-        {
-          "ticker": "QQQ",
-          "play_type": "call_spread",
-          "direction": "bullish",
-          "conviction": 7
-        },
-        {
-          "ticker": "MSTR",
-          "play_type": "call",
-          "direction": "bullish",
-          "conviction": 8
-        },
-        {
-          "ticker": "UUP",
-          "play_type": "call",
-          "direction": "bullish",
-          "conviction": 7
-        },
-        {
-          "ticker": "NVDA",
-          "play_type": "call_spread",
-          "direction": "bullish",
-          "conviction": 8
-        }
-      ],
-      "slots_before": 5,
-      "slots_after": 8,
-      "errors": [],
-      "status": "ok"
     }
   ],
-  "last_run": "2026-06-12T19:30:48.115Z"
+  "last_run": "2026-06-15T20:37:35.553Z"
 }
