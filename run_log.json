@@ -1,6 +1,21 @@
 {
   "runs": [
     {
+      "run_at": "2026-06-18T19:39:26.454Z",
+      "trigger": "schedule",
+      "evaluations": [],
+      "new_plays": [],
+      "slots_before": 0,
+      "slots_after": 0,
+      "errors": [
+        {
+          "phase": "generate",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        }
+      ],
+      "status": "partial"
+    },
+    {
       "run_at": "2026-06-17T19:36:09.854Z",
       "trigger": "schedule",
       "evaluations": [],
@@ -667,54 +682,7 @@
         }
       ],
       "status": "partial"
-    },
-    {
-      "run_at": "2026-05-07T19:15:10.572Z",
-      "trigger": "schedule",
-      "evaluations": [],
-      "new_plays": [],
-      "slots_before": 8,
-      "slots_after": 8,
-      "errors": [
-        {
-          "ticker": "IBIT",
-          "error": "Parse failed: Unexpected token '+', ...\"n_delta\": +1\n}\" is not valid JSON"
-        },
-        {
-          "ticker": "XLE",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        },
-        {
-          "ticker": "COIN",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        },
-        {
-          "ticker": "TLT",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        },
-        {
-          "ticker": "QQQ",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        },
-        {
-          "ticker": "MSTR",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        },
-        {
-          "ticker": "UUP",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        },
-        {
-          "ticker": "NVDA",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        },
-        {
-          "phase": "generate",
-          "error": "This request would exceed your organization's rate limit of 30,000 input tokens per minute (org: 06454a13-885e-4284-af99-3c166b876e68, model: claude-sonnet-4-20250514). For details, refer to: https://docs.claude.com/en/api/rate-limits. You can see the response headers for current usage. Please reduce the prompt length or the maximum tokens requested, or try again later. You may also contact sales at https://claude.com/contact-sales to discuss your options for a rate limit increase."
-        }
-      ],
-      "status": "partial"
     }
   ],
-  "last_run": "2026-06-17T19:36:09.854Z"
+  "last_run": "2026-06-18T19:39:26.454Z"
 }
