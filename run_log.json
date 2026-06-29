@@ -1,6 +1,21 @@
 {
   "runs": [
     {
+      "run_at": "2026-06-29T19:21:09.466Z",
+      "trigger": "schedule",
+      "evaluations": [],
+      "new_plays": [],
+      "slots_before": 0,
+      "slots_after": 0,
+      "errors": [
+        {
+          "phase": "generate",
+          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
+        }
+      ],
+      "status": "partial"
+    },
+    {
       "run_at": "2026-06-26T19:19:25.517Z",
       "trigger": "schedule",
       "evaluations": [],
@@ -434,63 +449,7 @@
         }
       ],
       "status": "partial"
-    },
-    {
-      "run_at": "2026-05-18T19:13:10.511Z",
-      "trigger": "schedule",
-      "evaluations": [
-        {
-          "ticker": "IBIT",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "XLE",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "COIN",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "TLT",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "QQQ",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "MSTR",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "UUP",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        },
-        {
-          "ticker": "NVDA",
-          "action": "archived_stale",
-          "reason": "criteria_not_met_after_7d"
-        }
-      ],
-      "new_plays": [],
-      "slots_before": 8,
-      "slots_after": 0,
-      "errors": [
-        {
-          "phase": "generate",
-          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
-        }
-      ],
-      "status": "partial"
     }
   ],
-  "last_run": "2026-06-26T19:19:25.517Z"
+  "last_run": "2026-06-29T19:21:09.466Z"
 }
