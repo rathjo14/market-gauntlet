@@ -1,6 +1,21 @@
 {
   "runs": [
     {
+      "run_at": "2026-11-26T01:05:16.150Z",
+      "trigger": "schedule",
+      "evaluations": [],
+      "new_plays": [],
+      "slots_before": 0,
+      "slots_after": 0,
+      "errors": [
+        {
+          "phase": "generate",
+          "error": "invalid x-api-key"
+        }
+      ],
+      "status": "partial"
+    },
+    {
       "run_at": "2026-11-24T03:25:26.223Z",
       "trigger": "schedule",
       "evaluations": [],
@@ -434,22 +449,7 @@
         }
       ],
       "status": "partial"
-    },
-    {
-      "run_at": "2026-10-13T21:55:38.753Z",
-      "trigger": "schedule",
-      "evaluations": [],
-      "new_plays": [],
-      "slots_before": 0,
-      "slots_after": 0,
-      "errors": [
-        {
-          "phase": "generate",
-          "error": "Your credit balance is too low to access the Anthropic API. Please go to Plans & Billing to upgrade or purchase credits."
-        }
-      ],
-      "status": "partial"
     }
   ],
-  "last_run": "2026-11-24T03:25:26.223Z"
+  "last_run": "2026-11-26T01:05:16.150Z"
 }
